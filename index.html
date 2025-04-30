@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FIRST WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/icon/partner.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/icon/partner.png" alt="logo" class="logo-img" />
+        <h1 class="logo-title">SHAUM</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#jasa">JASA</a></li>
+          <li><a href="mailto:saumiyahya@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Saumi Yahya Here!</p>
+        <p class="description">Student of MAN Insan Cendekia</p>
+        <img src="assets/foto/Saumi.jpg" alt="Saumi photo" class="img-foto" />
+      </div>
+      <!-- Data start -->
+      <div id="pekerjaan"></div>
+      <!-- Data end -->
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya Adalah Programmer</p>
+        <p class="description">Proses > Goals</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari Kerjasama!
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="jasa">
+          <div class="card-item">
+            <img src="assets/icon/contact.png" alt="icon 1" class="icon" />
+            <p class="card-title">Hubungi Saya Denngan Mudah</p>
+            <p class="card-description">Dapat melalui e-Mail atau Whatsapp</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/price-tag.png" alt="icon 2" class="icon" />
+            <p class="card-title">Anda Bisa Mendapatkan Jasa Murah</p>
+            <p class="card-description">Jasa murah dan terjamin</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/icon/24-hours.png" alt="icon 3" class="icon" />
+            <p class="card-title">Pelayanan Non-Stop</p>
+            <p class="card-description">Customer Service Responsif</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy;Saumi Yahya Website 2023</p>
+    </footer>
+
+    <script src="data.js"></script>
+  </body>
+</html>
